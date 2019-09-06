@@ -4,7 +4,7 @@
     <el-form>
       <div class="useless" v-for="(item,index) in workExperience" v-bind:key="index">
         <el-form-item v-for="key in keys" v-bind:label="labels[key] || key" :key="key">
-          <el-input v-model="item[key]" placeholder="请输入内容"></el-input>
+          <el-input type="textarea"    v-model="item[key]" placeholder="请输入内容"></el-input>
         </el-form-item>
         <i class="el-icon-delete" v-on:click="ctrl(index)"></i>
       </div>

@@ -9,6 +9,9 @@ import AV from "leancloud-storage"; //注意一要引入AV
 var APP_ID = '9OjuxqtJW77d99IuXSp1Eug1-gzGzoHsz';
 var APP_KEY = 't9H4TMWKyXzEP2xn2wW1oYzt';
 
+// import htmlToPdf from '@/components/utils/htmlToPdf'
+// Vue.use(htmlToPdf)
+
 AV.init({
  appId: APP_ID,
  appKey: APP_KEY
@@ -29,3 +32,4 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+

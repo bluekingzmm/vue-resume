@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <div class="file">
-      <input type="file" @change="onFileChange" id="files" accept=".jpg, .jpeg, .png" />
-      <div id="list"></div>
-    </div>
-  </div>
+  <!--<div>-->
+    <!--<div class="file">-->
+      <!--<input type="file" @change="onFileChange" id="files" accept=".jpg, .jpeg, .png" />-->
+      <!--<div id="list"></div>-->
+    <!--</div>-->
+  <!--</div>-->
 </template>
 
 <style lang="scss">
@@ -76,7 +76,7 @@
           }
         };
       },
-    
+
       onFileChange(evt) {
         let files = evt.target.files;
         let f = files[0];
