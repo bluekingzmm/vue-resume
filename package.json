@@ -12,7 +12,7 @@
   "dependencies": {
     "element-ui": "^2.0.10",
     "html2canvas": "^1.0.0-rc.3",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "leancloud-storage": "^3.6.3",
     "node-sass": "^4.7.2",
     "normalize.css": "^7.0.0",
