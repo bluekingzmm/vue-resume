@@ -14,7 +14,7 @@
     "html2canvas": "^1.0.0-rc.3",
     "jspdf": "^1.5.3",
     "leancloud-storage": "^3.6.3",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "normalize.css": "^7.0.0",
     "peer": "^0.2.10",
     "vue": "^2.5.2"
